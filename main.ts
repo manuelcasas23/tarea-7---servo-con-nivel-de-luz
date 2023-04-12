@@ -11,7 +11,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Sad)
 })
 basic.forever(function () {
-    pins.servoWritePin(AnalogPin.P4, pins.map(
+    pins.servoWritePin(AnalogPin.P2, pins.map(
     input.lightLevel(),
     0,
     255,
